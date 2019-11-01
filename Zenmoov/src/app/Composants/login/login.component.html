@@ -1,0 +1,59 @@
+<div class="back">
+  <div *ngIf="loggedIn === undefined">Loading...</div>
+  <div *ngIf="loggedIn === false" class="logged-out">
+      <div class="loginbox">
+        <br>
+        <h1>Connecte-toi</h1>
+        <form action="dologin()">
+          <p>Courriel:</p>
+          <input type="email" placeholder="Email" [(ngModel)]="email" name="email">
+          <p>Mot de Passe:</p>
+          <input type="password" placeholder="Password" [(ngModel)]="password" name="password">
+          <input type="submit" value="Connexion">
+        </form>
+      </div>
+  </div>
+  
+  <div *ngIf="loggedIn === true" class="logged-in">
+      <button class="logout" (click)="logout()">logout</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+

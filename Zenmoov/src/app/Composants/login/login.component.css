@@ -57,13 +57,14 @@ h1{
   font-weight: bold;
 }
 
-.loginbox input[type="submit"]
+.login
 {
+  margin-left: 100px;
   border: none;
   outline: none;
   height: 40px;
   background: #fb2525;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 18px;
 }
